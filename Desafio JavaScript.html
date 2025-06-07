@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+        input { padding: 5px; margin: 5px; }
+        button { padding: 8px 15px; margin: 5px; cursor: pointer; }
+        #resultado { margin-top: 20px; font-weight: bold; font-size: 1.2em; }
+    </style>
+</head>
+<body>
+
+    <h1>Calculadora Simples</h1>
+
+    <input type="number" id="n1" placeholder="Digite o primeiro número">
+    <input type="number" id="n2" placeholder="Digite o segundo número">
+
+    <hr>
+
+    <button onclick="somar()">Somar</button>
+    <button onclick="subtrair()">Subtrair</button>
+    <button onclick="multiplicar()">Multiplicar</button>
+    <button onclick="dividir()">Dividir</button>
+    <button onclick="potencia()">Potenciação</button>
+
+    <div id="resultado">O resultado aparecerá aqui.</div>
+
+    <script src="script-02.js"></script>
+
+</body>
+</html>
